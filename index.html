@@ -23,22 +23,24 @@
         /* =========================================
            PAGE 1: LANDING PAGE 
         ========================================= */
-        #landing-page {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            background-image: url('YOUR_PORTRAIT_IMAGE.png'); 
-            background-color: #111; 
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 1000;
-            transition: opacity 1s ease-out;
-        }
+       #landing-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('YOUR_PORTRAIT_IMAGE.png'); 
+    background-color: #0d0e15; /* Matches your dark theme */
+    background-size: contain; /* Forces the whole image to show top-to-bottom */
+    background-position: center;
+    background-repeat: no-repeat; /* Stops the image from tiling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: opacity 1s ease-out;
+}
+
 
         .glass-btn {
             padding: 15px 40px;
